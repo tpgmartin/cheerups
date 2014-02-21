@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Characters:</b>
+  <%= @cheerup.characters %>
+</p>
+
+<p>
+  <b>Cheerpoints:</b>
+  <%= @cheerup.cheerpoints %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @cheerup.user %>
+</p>
+
+
+<%= link_to 'Edit', edit_cheerup_path(@cheerup) %> |
+<%= link_to 'Back', cheerups_path %>

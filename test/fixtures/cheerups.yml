@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  characters: MyText
+  cheerpoints: 1
+  user: 
+
+two:
+  characters: MyText
+  cheerpoints: 1
+  user: 
